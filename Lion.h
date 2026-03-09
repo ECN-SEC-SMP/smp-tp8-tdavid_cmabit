@@ -2,10 +2,8 @@
 
 class Lion : public Animal
 {
-private:
-    /* data */
 public:
-    Lion();
+    Lion(int maxX, int maxY);
     ~Lion();
 
     void setAttaque();

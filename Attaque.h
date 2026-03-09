@@ -1,5 +1,8 @@
 #include <string>
+#include <time.h>
 using namespace std;
+
+int randomMax(int maxi); // fonction random simple
 
 class Attaque
 {

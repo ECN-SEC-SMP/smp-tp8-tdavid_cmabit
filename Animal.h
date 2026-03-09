@@ -1,8 +1,9 @@
 #include <Attaque.h>
+#include <stdlib.h>
 
 class Animal
 {
-private:
+protected: // # protected - private + public
     string nom;
     int x; //abs animal
     int y; //ord animal
@@ -24,6 +25,6 @@ public:
     void setVivant(bool v);
     virtual void setAttaque(Attaque atq); 
     virtual void deplace(int maxX, int maxY);
-    
+
     bool attaque(Animal &a);
 };
