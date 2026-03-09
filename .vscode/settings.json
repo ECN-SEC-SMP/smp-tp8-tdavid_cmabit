@@ -1,0 +1,10 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/thomas/Documents/SMP/smp-tp8-tdavid_cmabit",
+            "binaryPath": "/home/thomas/Documents/SMP/smp-tp8-tdavid_cmabit/tp8",
+            "binaryArgs": []
+        }
+    ],
+    "cmake.ignoreCMakeListsMissing": true
+}
