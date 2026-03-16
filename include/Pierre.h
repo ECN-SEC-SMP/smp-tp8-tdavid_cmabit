@@ -1,3 +1,4 @@
+#pragma once
 #include <Animal.h>
 
 class Pierre : public Animal

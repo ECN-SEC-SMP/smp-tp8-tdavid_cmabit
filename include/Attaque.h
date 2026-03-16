@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <time.h>
 using namespace std;
@@ -12,10 +13,10 @@ public:
     // constructeurs
     Attaque(); // cree une attaque random
     Attaque(int a); // cree une attaque specifique
-    // destructeur
-    ~Attaque();
     // accesseurs
     int getTypeAttaque() const;
     bool resoudreAttaque(Attaque &a) const;
     string getNomAttaque() const;
+    // destructeur
+    ~Attaque();
 };

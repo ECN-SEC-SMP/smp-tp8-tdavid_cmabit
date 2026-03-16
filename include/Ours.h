@@ -1,12 +1,13 @@
+#pragma once
 #include <Animal.h>
 
-class Loup : public Animal
+class Ours : public Animal
 {
 private:
     /* data */
 public:
-    Loup();
-    ~Loup();
+    Ours();
+    ~Ours();
 
     void setAttaque();
     void deplace(int maxX, int maxY);

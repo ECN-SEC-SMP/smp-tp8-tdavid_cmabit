@@ -8,7 +8,7 @@ Animal::Animal(int maxX, int maxY)
     this->y = randomMax(maxY-1);
 }
 
-void Animal::setAttaque(Attaque atq)
-{
+// void Animal::setAttaque(Attaque atq)
+// {
 
-}
+// }

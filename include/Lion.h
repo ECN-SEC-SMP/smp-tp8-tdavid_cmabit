@@ -1,12 +1,11 @@
+#pragma once
 #include <Animal.h>
 
-class Ours : public Animal
+class Lion : public Animal
 {
-private:
-    /* data */
 public:
-    Ours();
-    ~Ours();
+    Lion(int maxX, int maxY);
+    ~Lion();
 
     void setAttaque();
     void deplace(int maxX, int maxY);

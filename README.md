@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Dans ce tp, nous allons coder un <span style="color:blue">**"mini jeu de la vie"**</span> dans lequel des animaux vont se manger entre eux en se déplaçant sur les cases d'un tableau. Deux animaux qui se rencontrent s'attaquerons en jouant au  <span style="color:blue">**Pierre-Feuille-Ciseaux**</span> pour savoir lequel mangera l'autre. Chaque type d'animal a sa propre méthode de déplacement.
+Dans ce tp, nous allons coder un **"mini jeu de la vie"** dans lequel des animaux vont se manger entre eux en se déplaçant sur les cases d'un tableau. Deux animaux qui se rencontrent s'attaquerons en jouant au  **Pierre-Feuille-Ciseaux** pour savoir lequel mangera l'autre. Chaque type d'animal a sa propre méthode de déplacement.
 
 Ce tp nous fera mobiliser nos connaissances en diagramme UML et en Programmation Orientée Objet (POO).
 
@@ -22,11 +22,11 @@ Nous obtenons alors ce résultat :
 
 Pour les animaux, nous créons un fichier d'include pour chaque classe (Lion, Ours, Loup, Pierre).
 
-On commence donc par une classe globale <span style="color:blue">**Animal**</span> dont tout les animaux vont hériter :
+On commence donc par une classe globale **Animal** dont tout les animaux vont hériter :
 
-- Pierre : Ne se déplace pas et attaque uniquement avec des <span style="color:blue">**Pierres**</span>.
-- Lion : Se déplace uniquement sur les quatres diagonales avec 1 case de distance. Attaquent avec <span style="color:blue">**Feuille**</span> ou <span style="color:blue">**Ciseaux**</span>.
-- Loup : Se déplace n'importe où sur le tableau sans limite de distance et utilise aléatoirement <span style="color:blue">**toutes les attaquent possibles**</span>.
-- Ours : Utilise les déplacements du cavalier aux échecs. Attaquent uniquement avec la <span style="color:blue">**Feuille**</span>.
+- Pierre : Ne se déplace pas et attaque uniquement avec des **Pierres**.
+- Lion : Se déplace uniquement sur les quatres diagonales avec 1 case de distance. Attaquent avec **Feuille** ou **Ciseaux**.
+- Loup : Se déplace n'importe où sur le tableau sans limite de distance et utilise aléatoirement **toutes les attaquent possibles**.
+- Ours : Utilise les déplacements du cavalier aux échecs. Attaquent uniquement avec la **feuille**.
 
 Les animaux qui sortent de la carte d'un côté passent automatiquement de l'autre côté du tableau.

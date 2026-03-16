@@ -18,7 +18,7 @@ void initTableau(char tableau[TABLEAU_H_SIZE][TABLEAU_L_SIZE]) {
 /**
  * @brief Affiche le tableau de jeu
  * 
- * @param tableau 
+ * @param tableau
  */
 void afficherTableau(char tableau[TABLEAU_H_SIZE][TABLEAU_L_SIZE]) {
     for (int i = 0; i < TABLEAU_H_SIZE; i++) {
